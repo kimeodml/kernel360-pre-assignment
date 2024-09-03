@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 export const Template = styled.div`
   background-color: #FAFAFA;
-  padding-left: 30px;
-  position: relative;
+  padding: 0 30px;
   width: calc(100vw - 174px);
-  height: calc(100vh - 80px);
+  padding-top: 150px;
 `
 
 export const Title = styled.h2`
@@ -13,11 +12,15 @@ export const Title = styled.h2`
 `
 
 export const Mentors = styled.ul`
-  display:flex;
-  position: absolute;
-  overflow: hidden;
-  margin:0;
+  display: grid;
+  margin: 0;
   padding:0;
-  gap: 30px;
-  overflow: hidden;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+
+
+  li {
+    height: 228px;
+  }
+
 `

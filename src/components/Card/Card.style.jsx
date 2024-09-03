@@ -1,40 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  display:flex;
-  flex-direction: column;
-`
-
-export const Template = styled.div`
-  background-color: #FAFAFA;
-  padding-left: 30px;
-  position: relative;
-  width: calc(100vw - 174px);
-  height: calc(100vh - 80px);
-`
-
-export const Title = styled.h2`
-  display:flex;
-`
-
-export const Mentors = styled.ul`
-  display:flex;
-  position: absolute;
-  overflow: hidden;
-  margin:0;
-  padding:0;
-  gap: 30px;
-  overflow: hidden;
-`
-
 export const MentorList = styled.li`
   display:flex;
   justify-content: space-around;
   flex-direction: column;
   border-radius: 10px;
   background-color: #FFFFFF;
-  width: 328px;
-  height: 140px;
 `
 export const MentorInfo = styled.div`
   display:flex;

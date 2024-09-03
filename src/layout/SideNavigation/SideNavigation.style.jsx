@@ -7,6 +7,7 @@ export const SideNavigation = styled.ul`
   gap:30px;
   margin:0;
   padding:40px 40px 0 40px;
+  width: 252px;
  
 `
 export const CategoryList = styled.li`

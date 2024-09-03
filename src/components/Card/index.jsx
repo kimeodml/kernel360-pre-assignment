@@ -3,6 +3,7 @@ import * as S from './Card.style';
 
 export default function Card(mentor) {
   const { image, name, job, introduction, numOfTask, reveiwScore, reviewCount } = mentor.mentor;
+
   return (
     <S.MentorList>
       <S.MentorInfo>
@@ -15,7 +16,7 @@ export default function Card(mentor) {
         </S.MentorInfo>
         <S.MentorFollow>+ Follow</S.MentorFollow>
       </S.MentorInfo>
-      <S.MentorIntro>{introduction}</S.MentorIntro>
+      {introduction && <S.MentorIntro>{introduction}</S.MentorIntro>}
       <S.MentorTask>
         <S.TaskData><SquareLibrary />{numOfTask}Task</S.TaskData>
         <S.TaskData><Star />{reveiwScore}({reviewCount}Reviews)</S.TaskData>

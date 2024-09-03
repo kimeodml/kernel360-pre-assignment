@@ -4,8 +4,9 @@ export const ToolBar = styled.div`
   display:flex;
   height: 84px;
   justify-content: space-between;
+  width: calc(100vw - 204px);
   align-items: center;
-  margin: 0 30px;
+  padding: 0 30px;
 
 `
 export const Input = styled.input`

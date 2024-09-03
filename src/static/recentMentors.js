@@ -1,9 +1,8 @@
-const RECENT_MENTORS = [
+const RECENT_MENTROS = [
     {
         "name": "Jessica Jane",
         "job": "Web Developer",
         "image": "https://cdn-icons-png.flaticon.com/512/6075/6075758.png",
-        "introduction": "Hi, my name is Jessica. I'm a web developer.",
         "isFollowed": false,
         "numOfTask": 40,
         "reviewScore": 4.7,
@@ -13,7 +12,6 @@ const RECENT_MENTORS = [
         "name": "Abraham Lincoln",
         "job": "3D Designer",
         "image": "https://cdn-icons-png.flaticon.com/512/2810/2810504.png",
-        "introduction": "Hi, my name is Abraham. I'm a 3D Designer.",
         "isFollowed": true,
         "numOfTask": 32,
         "reviewScore": 4.9,
@@ -23,7 +21,6 @@ const RECENT_MENTORS = [
         "name": "Curious George",
         "job": "UI/UX Designer",
         "image": "https://cdn-icons-png.flaticon.com/512/2810/2810658.png",
-        "introduction": "Hi, my name is Curious. I'm a UI/UX Designer.",
         "isFollowed": false,
         "numOfTask": 40,
         "reviewScore": 4.7,
@@ -33,7 +30,6 @@ const RECENT_MENTORS = [
         "name": "Robinson Lee",
         "job": "Web Developer",
         "image": "https://cdn-icons-png.flaticon.com/512/1754/1754623.png",
-        "introduction": "Hi, my name is Robinson. I'm a web developer.",
         "isFollowed": false,
         "numOfTask": 45,
         "reviewScore": 4.9,
@@ -41,4 +37,4 @@ const RECENT_MENTORS = [
     }
 ]
 
-export default RECENT_MENTORS;
+export default RECENT_MENTROS;
