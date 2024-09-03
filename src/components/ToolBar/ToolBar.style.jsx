@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const ToolBar = styled.div`
   display:flex;
-  width: calc(100vw - 174px);
   height: 84px;
   justify-content: space-between;
   align-items: center;
+  margin: 0 30px;
 
 `
 export const Input = styled.input`
@@ -24,7 +24,7 @@ export const Input = styled.input`
 
 export const Lens = styled.div`
   position: relative;
-  right: 50px;
+  right: 60px;
   height: 25px;
 `
 
@@ -37,9 +37,10 @@ export const Container = styled.div`
     display:flex;
     align-items: center;
     gap: 10px;
-    padding: 14px 30px;
+    padding: 14px 20px;
     border-radius: 10px;
     border: 1px solid #F5F5F7;
+    font-size: 12px;
   }
 
 `
